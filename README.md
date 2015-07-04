@@ -1,27 +1,32 @@
-
-# Team Next
-
+# Dumbo-Route
 
 **Team members**
 
-![Des Holmes](https://avatars3.githubusercontent.com/u/1830123?v=3&s=100)  | 
-![Des Holmes](https://avatars3.githubusercontent.com/u/1517766?v=3&s=100)  | 
-![Des Holmes](https://avatars3.githubusercontent.com/u/3582841?v=3&s=100)  |
-![Des Holmes](https://avatars3.githubusercontent.com/u/1517766?v=3&s=100)  
-
-:--- | :--- | :--- | :---
-**Flack Ribeiro** | **Zakaria Abushima** | **Andrea Weir** | **Tendai Shamu**
-[@1](https://twitter.com/whodadada) | 
-[@BenBish0p](https://twitter.com/BenBish0p) | 
-[@jjkilpatrick](https://twitter.com/jjkilpatrick) [desholmes](https://github.com/desholmes) | [https://github.com/bish0p86](https://github.com/bish0p86) |
-[jjkilpatrick](https://github.com/jjkilpatrick)
-[http://dholmes.co.uk/](http://dholmes.co.uk/) |
-| [https://medium.com/@jjkilpatrick](https://medium.com/@jjkilpatrick)
+| ![Matt Williams](https://avatars2.githubusercontent.com/u/1999968?v=3&s=100) | | | |
+| :--- | :--- | :--- | :--- |
+| **Matt Williams** | **Jordan Lapointe** | **Vijay Dubb** | **Peter Gordon** |
+| [@maffydub](https://twitter.com/maffydub) | [@jordanpgl](https://twitter.com/jordanpgl) | | [@petergordon](https://twitter.com/petergordon) |
+| [matt-williams](https://github.com/matt-williams) | [jordanpgl](https://github.com/jordanpgl) | [vd39](https://github.com/vd39) | [dustko](https://github.com/dustko) |
+| | [http://jordanlapointe.me/](http://jordanlapointe.me/) | [http://vd39.me/](http://vd39.me/) | |
 
 **Brief description of your hack**
 
-Our application allows you to relive your festival experience the morning after the night before.
+Help people to remember routes without looking at their phone!
 
 **Why not tell us more about your team**
 
-The 414s were a group of friends and computer hackers who broke into dozens of high-profile computer systems, including ones at Los Alamos National Laboratory, Sloan-Kettering Cancer Center, and Security Pacific Bank, in the early 1980s.
+Er...
+
+
+** Installation
+
+Dependencies:
+npm - available @ nodejs.org
+
+To install:
+
+npm install -g ionic
+npm install -g cordova
+
+cd app
+ionic serve
