@@ -1,12 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#ffffff">
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <GridLayout
+        android:scaleType = "centerCrop"
+        android:background="@drawable/background"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="10"
+        android:layout_gravity="bottom"
+        android:id="@+id/gridLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/sep"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="AnalogSafe, keeping you safe whilst you travel."
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/sep"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Seamlessly Sync it with your smartwatch and will trace your heartbeat frequency to detect if its above or below the average."
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/sep"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="AF will trigger a notifcation if heartbeats abnormal and request your majesty confirmation to report to authoritative emergencies."
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/sep"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Get Started!"
+            android:background="@xml/whitebtn"
+            android:drawableLeft="@drawable/started"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:textColor="#000000"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/getstarted" />
+
+    </GridLayout>
 
 </RelativeLayout>
+
+</ScrollView>
