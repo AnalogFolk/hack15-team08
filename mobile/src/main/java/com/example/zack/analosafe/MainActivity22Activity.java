@@ -4,19 +4,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
-import android.widget.GridLayout;
+import android.widget.Button;
 
 
 public class MainActivity22Activity extends ActionBarActivity {
 
-    GridLayout gototabss;
+    Button gototabss;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity22);
 
-        gototabss = (GridLayout)findViewById(R.id.emergen);
+        gototabss = (Button)findViewById(R.id.gofinal);
         gototabss.setOnClickListener(listenergetstartss);
     }
 

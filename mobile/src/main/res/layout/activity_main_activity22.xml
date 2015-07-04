@@ -16,12 +16,20 @@
         android:scaleType = "centerCrop"
         android:background="@drawable/tab1"
         android:layout_width="fill_parent"
-        android:layout_height="640dp"
-        android:columnCount="0"
-        android:rowCount="0"
+        android:layout_height="600dp"
+        android:columnCount="1"
+        android:rowCount="1"
         android:layout_gravity="bottom"
         android:id="@+id/emergen3"
         android:clickable="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/gofinal"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@android:color/transparent" />
 
         </GridLayout>
 
