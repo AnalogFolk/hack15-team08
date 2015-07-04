@@ -2,7 +2,7 @@
 
 **Team members**
 
-| ![111](https://avatars2.githubusercontent.com/u/1999968?v=3&s=100) | | | |
+| ![@111](https://avatars2.githubusercontent.com/u/1999968?v=3&s=100) | | | |
 | :--- | :--- | :--- | :--- |
 | **Flack Ribeiro** | **Jordan Andreia Weir** | **Zakaria** | **tendai Shamu** |
 | [@111](https://twitter.com/maffydub) | [@jordanpgl](https://twitter.com/jordanpgl) | | [@petergordon](https://twitter.com/petergordon) |
