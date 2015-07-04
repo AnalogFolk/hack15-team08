@@ -2,10 +2,10 @@
 
 **Team members**
 
-| ![@111](https://avatars2.githubusercontent.com/u/1999968?v=3&s=100) | | | |
+| ![111](https://avatars2.githubusercontent.com/u/1999968?v=3&s=100) | | | |
 | :--- | :--- | :--- | :--- |
-| **Flack Ribeiro** | **Jordan Andreia Weir** | **Zakaria** | **tendai Shamu** |
-| [@111](https://twitter.com/maffydub) | [@jordanpgl](https://twitter.com/jordanpgl) | | [@petergordon](https://twitter.com/petergordon) |
+| **Matt Williams** | **Jordan Lapointe** | **Vijay Dubb** | **Peter Gordon** |
+| [@maffydub](https://twitter.com/maffydub) | [@jordanpgl](https://twitter.com/jordanpgl) | | [@petergordon](https://twitter.com/petergordon) |
 | [matt-williams](https://github.com/matt-williams) | [jordanpgl](https://github.com/jordanpgl) | [vd39](https://github.com/vd39) | [dustko](https://github.com/dustko) |
 | | [http://jordanlapointe.me/](http://jordanlapointe.me/) | [http://vd39.me/](http://vd39.me/) | |
 
